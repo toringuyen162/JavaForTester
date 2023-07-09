@@ -1,6 +1,6 @@
 package Q1;
 
-public class PrimeNumber {
+public class Q1Solution {
     public static void main(String[] args) {
     isPrimeNumber(11);
     }
