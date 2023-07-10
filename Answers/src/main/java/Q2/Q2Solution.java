@@ -45,6 +45,7 @@ public class Q2Solution {
         System.out.println("Sorted Array: "+ outPut);
     }
 
+//Bài giải của thầy
     public static void EscSort() {
         Integer[] a = {1, 3, 32, 4, 734, 3, -1, -234, 0};
         if (a != null) {
