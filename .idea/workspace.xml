@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q11Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q12SolutionPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q13SolutionLeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q14SinhVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Answers/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +53,48 @@
       <recent name="Q4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q10Solution">
+  <component name="RunManager" selected="Application.Q12SolutionPalindrome">
     <configuration name="Q10Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution.Q10Solution" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q11Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Q11Solution" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q12SolutionPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Q12SolutionPalindrome" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q13SolutionLeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Q13SolutionLeapYear" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -77,7 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q12SolutionPalindrome" />
         <item itemvalue="Application.Q10Solution" />
+        <item itemvalue="Application.Q13SolutionLeapYear" />
+        <item itemvalue="Application.Q11Solution" />
         <item itemvalue="Application.Q9Solution" />
       </list>
     </recent_temporary>
@@ -98,13 +145,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="3" />
+          <line>4</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
