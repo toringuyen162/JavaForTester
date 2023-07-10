@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q5Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q6Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q7Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q8Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q9Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Q1/Q1Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q1Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Q2/Q2Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q2Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Q3/Q3Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q3Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Q4/Q4Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q4Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q6Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q6Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,26 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Q4" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Q9Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Q9Solution" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Q9Solution" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
