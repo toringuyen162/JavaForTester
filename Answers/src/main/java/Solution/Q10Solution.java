@@ -1,8 +1,10 @@
 package Solution;
 
+import java.util.Arrays;
+
 public class Q10Solution {
     public static void main(String[] args) {
-
+    daysInMonth("02/2024");
     }
 
     public static boolean isLeapYear(int y){
@@ -15,10 +17,21 @@ public class Q10Solution {
             return false;
         }
     }
-    public static void daysInMonth(){
-        int[] day31 = {1,3,5,7,8,10,12};
+    public static void daysInMonth(String input){
+        int m = Integer.parseInt(input.substring(0,2));
+        int y=Integer.parseInt(input.substring(3));
         int[] day30 = {4,6,9,11};
-
+        if (m==2) {
+            if (isLeapYear(y) == false) {
+                System.out.println(input +" co 28 ngay");
+            } else System.out.println(input+" co 29 ngay");
+        } else {
+            for (int i:day30){
+                if (m==i){
+                    System.out.println(input+" co 30 ngay");
+                }
+                else System.out.println(input+ "co 31 ngay");
+            }
+        }
     }
-
 }

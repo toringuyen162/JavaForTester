@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q7Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q8Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q9Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q6Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q6Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,20 @@
       <recent name="Q4" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Q10Solution">
+    <configuration name="Q10Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Q10Solution" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q9Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution.Q9Solution" />
       <module name="untitled" />
@@ -67,6 +76,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q10Solution" />
         <item itemvalue="Application.Q9Solution" />
       </list>
     </recent_temporary>
@@ -81,5 +91,16 @@
       <updated>1688954731146</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Answers/src/main/java/Solution/Q10Solution.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
