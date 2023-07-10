@@ -5,7 +5,6 @@ import java.util.Arrays;
 
 public class Q2Solution {
     public static void main(String[] args) {
-
         sortArray2();
         EscSort();
     }
