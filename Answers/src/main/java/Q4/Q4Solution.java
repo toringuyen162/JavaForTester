@@ -19,10 +19,10 @@ public class Q4Solution {
                 init = init * 10 + i % 10;
             }
         }
-        if (isMinus) {
-            System.out.println("So dao nguoc la: -" + init);
-        } else {
+        if (isMinus==false) {
             System.out.println("So dao nguoc la: " + init);
+        } else {
+            System.out.println("So dao nguoc la: -" + init);
         }
 
     }
