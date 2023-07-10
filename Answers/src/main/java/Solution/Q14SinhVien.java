@@ -49,10 +49,7 @@ public class Q14SinhVien {
 
 
     public static void main(String[] args) {
-        Q14SinhVien sv1 = new Q14SinhVien("Thuy",true,12,12,13);
-        Q14SinhVien sv2 = new Q14SinhVien("Thuy",true,15,12,13);
-        Q14SinhVien sv3 = new Q14SinhVien("Thuy",true,15,12,13);
-        Q14SinhVien sv4 = new Q14SinhVien("Thuy",true,15,12,13);
+        Q14SinhVien sv1 = new Q14SinhVien();
     }
     }
 
