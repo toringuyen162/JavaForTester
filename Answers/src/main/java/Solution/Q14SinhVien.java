@@ -8,10 +8,8 @@ public class Q14SinhVien {
     private float physics;
     private float chemistry;
 
-    Q14SinhVien q14SinhVien = new Q14SinhVien();
 
-    public Q14SinhVien(String id, String name, boolean sex, float math, float physics, float chemistry) {
-        this.id = id;
+    public Q14SinhVien( String name, boolean sex, float math, float physics, float chemistry) {
         this.name = name;
         this.sex = sex;
         this.math = math;
@@ -33,25 +31,28 @@ public class Q14SinhVien {
 
     public void setMath(float math) {
         if (math < 0 || math > 10) {
-            System.out.println(error);
+            System.out.println("Nhập điểm từ 0-10");
         } else this.math = math;
     }
 
     public void setPhysics(float physics) {
         if (physics < 0 || physics > 10) {
-            System.out.println(error);}
+            System.out.println("Nhập điểm từ 0-10");}
         else this.physics = physics;
 
     }
     public void setChemistry ( float chemistry){
         if (chemistry < 0 || chemistry > 10) {
-            System.out.println(error);
+            System.out.println("Nhập điểm từ 0-10");
         } else this.chemistry = chemistry;
     }
 
 
     public static void main(String[] args) {
-        Q14SinhVien sv1 = new Q14SinhVien(123,)
+        Q14SinhVien sv1 = new Q14SinhVien("Thuy",true,12,12,13);
+        Q14SinhVien sv2 = new Q14SinhVien("Thuy",true,15,12,13);
+        Q14SinhVien sv3 = new Q14SinhVien("Thuy",true,15,12,13);
+        Q14SinhVien sv4 = new Q14SinhVien("Thuy",true,15,12,13);
     }
     }
 
