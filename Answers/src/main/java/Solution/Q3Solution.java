@@ -1,4 +1,4 @@
-package Q3;
+package Solution;
 
 public class Q3Solution {
     public static void main(String[] args) {

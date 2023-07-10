@@ -1,4 +1,4 @@
-package Q2;
+package Solution;
 
 import java.util.ArrayList;
 import java.util.Arrays;

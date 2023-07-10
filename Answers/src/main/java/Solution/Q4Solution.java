@@ -1,4 +1,4 @@
-package Q4;
+package Solution;
 
 public class Q4Solution {
     //Sử dụng for loop để đảo 1 số nguyên cho trước
@@ -8,13 +8,13 @@ public class Q4Solution {
 
     public static void reverseFor(int n) {
         boolean isMinus = false;
-        int reversedNum=0;
+        int reversedNum = 0;
         if (n < 0) {
             n = -n;
             isMinus = true;
         }
         if (n >= 0) {
-             reversedNum = n % 10;
+            reversedNum = n % 10;
             for (int i = n / 10; i >= 1; i /= 10) {
                 reversedNum = reversedNum * 10 + i % 10;
             }

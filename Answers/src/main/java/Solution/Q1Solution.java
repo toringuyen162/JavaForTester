@@ -1,4 +1,4 @@
-package Q1;
+package Solution;
 
 public class Q1Solution {
     //Đề bài: tìm số nguyên tố
