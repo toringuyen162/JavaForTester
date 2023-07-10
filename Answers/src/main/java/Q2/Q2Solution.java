@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Q2Solution {
+    //Đề bài: Sort array không dùng sort()
     public static void main(String[] args) {
         sortArray2();
         EscSort();

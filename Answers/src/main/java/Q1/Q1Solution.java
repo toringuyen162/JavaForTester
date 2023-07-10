@@ -1,6 +1,7 @@
 package Q1;
 
 public class Q1Solution {
+    //Đề bài: tìm số nguyên tố
     public static void main(String[] args) {
     isPrimeNumber(11);
     }
