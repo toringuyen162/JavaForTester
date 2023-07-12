@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="" />
+    <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +47,7 @@
       <recent name="Q4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q14SinhVien">
+  <component name="RunManager" selected="Application.Q12SolutionPalindrome">
     <configuration name="Q10Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution.Q10Solution" />
       <module name="untitled" />
@@ -98,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q14SinhVien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution.Q14SinhVien" />
+    <configuration name="Q9Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Q9Solution" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q14SinhVien" />
         <item itemvalue="Application.Q12SolutionPalindrome" />
         <item itemvalue="Application.Q10Solution" />
         <item itemvalue="Application.Q13SolutionLeapYear" />
         <item itemvalue="Application.Q11Solution" />
+        <item itemvalue="Application.Q9Solution" />
       </list>
     </recent_temporary>
   </component>
