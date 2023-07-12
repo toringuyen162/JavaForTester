@@ -45,6 +45,7 @@ public class Q14SinhVien {
 
     public static void main(String[] args) {
         Q14SinhVien sv1 = new Q14SinhVien();
+        sv1.setMath();
     }
     }
 
