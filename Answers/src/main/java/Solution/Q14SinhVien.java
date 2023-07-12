@@ -9,12 +9,7 @@ public class Q14SinhVien {
     private float chemistry;
 
 
-    public Q14SinhVien( String name, boolean sex, float math, float physics, float chemistry) {
-        this.name = name;
-        this.sex = sex;
-        this.math = math;
-        this.physics = physics;
-        this.chemistry = chemistry;
+    public Q14SinhVien() {
     }
 
     public void setId(String id) {
