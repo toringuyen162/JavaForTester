@@ -56,22 +56,18 @@ public class Q14SinhVien {
         Scanner sc = new Scanner(System.in);
         System.out.printf("Nhap vao so sinh vien: ");
         int num = sc.nextInt();
-
         List<Q14SinhVien> list = new ArrayList<Q14SinhVien>();
         for (int i=0;i<num;i++){
             list.add(new Q14SinhVien());
         }
-
+        
         for (int i=0;i<num;i++){
             var object = list.get(i);
             object.setId();
-            sc.next();
             object.setName(sc.next());
-            sc.next();
+            object.setSex(sc.nextBoolean());
             object.setMath(sc.nextFloat());
-            sc.next();
             object.setPhysics(sc.nextFloat());
-            sc.next();
             object.setChemistry(sc.nextFloat());
         }
         sc.close();
