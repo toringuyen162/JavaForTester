@@ -22,7 +22,6 @@ public class Q14SinhVien {
     }
 
     public void setName(String name) {
-        System.out.printf("Ten sinh vien: ");
         this.name = name;
     }
 
@@ -30,45 +29,51 @@ public class Q14SinhVien {
         this.sex = sex;
     }
 
-    public void setMath(float math) {
-        System.out.printf("Nhap diem Toan: ");
+    public void setMath(float math,Scanner sc) {
+
         if (math < 0 || math > 10) {
-            System.out.println("Nhập điểm từ 0-10");
+            System.out.printf("Nhập điểm từ 0-10");
+            setMath(sc.nextFloat(),sc);
         } else this.math = math;
     }
 
-    public void setPhysics(float physics) {
-        System.out.printf("Nhap diem Ly: ");
+    public void setPhysics(float physics,Scanner sc) {
         if (physics < 0 || physics > 10) {
-            System.out.println("Nhập điểm từ 0-10");}
+            System.out.printf("Nhập điểm từ 0-10");
+            setPhysics(sc.nextFloat(),sc);
+        }
         else this.physics = physics;
 
     }
-    public void setChemistry ( float chemistry){
-        System.out.printf("Nhap diem Hoa: ");
+    public void setChemistry ( float chemistry,Scanner sc){
         if (chemistry < 0 || chemistry > 10) {
-            System.out.println("Nhập điểm từ 0-10");
+            System.out.printf("Nhập điểm từ 0-10");
+            setChemistry(sc.nextFloat(),sc);
         } else this.chemistry = chemistry;
     }
 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.printf("Nhap vao so sinh vien: ");
+        System.out.println("Nhap vao so sinh vien: ");
         int num = sc.nextInt();
         List<Q14SinhVien> list = new ArrayList<Q14SinhVien>();
         for (int i=0;i<num;i++){
             list.add(new Q14SinhVien());
         }
-        
-        for (int i=0;i<num;i++){
+        for (int i=0;i<num;i++) {
             var object = list.get(i);
             object.setId();
+            System.out.printf("Ten sinh vien: ");
             object.setName(sc.next());
+            System.out.printf("Nhap gioi tinh: ");
             object.setSex(sc.nextBoolean());
-            object.setMath(sc.nextFloat());
-            object.setPhysics(sc.nextFloat());
-            object.setChemistry(sc.nextFloat());
+            System.out.printf("Nhap diem Toan: ");
+            object.setMath(sc.nextFloat(), sc);
+            System.out.printf("Nhap diem Ly: ");
+            object.setPhysics(sc.nextFloat(), sc);
+            System.out.printf("Nhap diem Hoa: ");
+            object.setChemistry(sc.nextFloat(), sc);
         }
         sc.close();
         }
