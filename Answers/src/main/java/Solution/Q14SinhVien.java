@@ -32,14 +32,14 @@ public class Q14SinhVien {
     public void setMath(float math,Scanner sc) {
 
         if (math < 0 || math > 10) {
-            System.out.printf("Nhập điểm từ 0-10");
+            System.out.printf("Nhập điểm từ Toán 0-10");
             setMath(sc.nextFloat(),sc);
         } else this.math = math;
     }
 
     public void setPhysics(float physics,Scanner sc) {
         if (physics < 0 || physics > 10) {
-            System.out.printf("Nhập điểm từ 0-10");
+            System.out.printf("Nhập điểm lý từ 0-10");
             setPhysics(sc.nextFloat(),sc);
         }
         else this.physics = physics;
@@ -47,7 +47,7 @@ public class Q14SinhVien {
     }
     public void setChemistry ( float chemistry,Scanner sc){
         if (chemistry < 0 || chemistry > 10) {
-            System.out.printf("Nhập điểm từ 0-10");
+            System.out.printf("Nhập điểm Hoá từ 0-10");
             setChemistry(sc.nextFloat(),sc);
         } else this.chemistry = chemistry;
     }
@@ -55,7 +55,7 @@ public class Q14SinhVien {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap vao so sinh vien: ");
+        System.out.printf("Nhap vao so sinh vien: ");
         int num = sc.nextInt();
         List<Q14SinhVien> list = new ArrayList<Q14SinhVien>();
         for (int i=0;i<num;i++){
