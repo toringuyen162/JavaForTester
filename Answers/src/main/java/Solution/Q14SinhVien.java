@@ -38,26 +38,23 @@ public class Q14SinhVien {
         this.sex = sex;
     }
 
-    public void setMath(float math, Scanner sc) {
+    public void setMath(float math) {
 
         if (math < 0 || math > 10) {
             System.out.printf("Nhập điểm từ Toán 0-10");
-            setMath(sc.nextFloat(), sc);
         } else this.math = math;
     }
 
-    public void setPhysics(float physics, Scanner sc) {
+    public void setPhysics(float physics) {
         if (physics < 0 || physics > 10) {
             System.out.printf("Nhập điểm lý từ 0-10");
-            setPhysics(sc.nextFloat(), sc);
         } else this.physics = physics;
 
     }
 
-    public void setChemistry(float chemistry, Scanner sc) {
+    public void setChemistry(float chemistry) {
         if (chemistry < 0 || chemistry > 10) {
             System.out.printf("Nhập điểm Hoá từ 0-10");
-            setChemistry(sc.nextFloat(), sc);
         } else this.chemistry = chemistry;
 
     }
@@ -119,7 +116,7 @@ public class Q14SinhVien {
         list.add(new Q14SinhVien("Nga", true, 3, 5, 7));
         list.add(new Q14SinhVien("Hương", false, 10, 4, 9));
         var svMax = list.get(0);
-        var avgMax = svMax.avgScore(svMax.getMath(),svMax.getPhysics(), svMax.getChemistry());
+        var avgMax = svMax.avgScore(svMax.getMath(), svMax.getPhysics(), svMax.getChemistry());
         for (Q14SinhVien i : list) {
             var avgScore = i.avgScore(i.getMath(), i.getPhysics(), i.getChemistry());
             if (avgScore > avgMax) {

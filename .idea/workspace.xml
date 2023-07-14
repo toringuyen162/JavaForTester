@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q15Diem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q15Phanso.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q16Phanso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q14SinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q14SinhVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q15Diem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q15Diem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q16Phanso.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q16Phanso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q13SolutionLeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution.Q13SolutionLeapYear" />
+    <configuration name="Q14SinhVien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Q14SinhVien" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q14SinhVien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution.Q14SinhVien" />
+    <configuration name="Q15Diem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution.Q15Diem" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -118,10 +119,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Q16Phanso" />
+        <item itemvalue="Application.Q15Diem" />
         <item itemvalue="Application.Q14SinhVien" />
         <item itemvalue="Application.Q12SolutionPalindrome" />
         <item itemvalue="Application.Q10Solution" />
-        <item itemvalue="Application.Q13SolutionLeapYear" />
       </list>
     </recent_temporary>
   </component>

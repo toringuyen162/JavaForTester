@@ -20,13 +20,9 @@ public class Q16Phanso {
         this.tu = tu;
     }
 
-    public void setMau() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Nhap tu so: ");
-        int mau = sc.nextInt();
+    public void setMau(int mau) {
         if (mau == 0) {
             System.out.printf("Nhap lai mau so khac 0: ");
-            setMau();
         }
         this.mau = mau;
     }

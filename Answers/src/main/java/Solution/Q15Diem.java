@@ -14,13 +14,17 @@ public class Q15Diem {
     }
 
     public void setX(int x) {
-        
-        this.x = x;
+        if (x < -2000 || x > 2000) {
+            System.out.println("Nhập x trong khoảng từ -2000 tới 2000: ");
+            return;
+        } else this.x = x;
     }
 
+
     public void setY(int y) {
-        if ()
-        this.y = y;
+        if (y < -2000 || y > 2000) {
+            System.out.println("Nhập y trong khoảng từ -2000 tới 2000: ");
+        } else this.y = y;
     }
 
     public int getX() {
@@ -31,5 +35,8 @@ public class Q15Diem {
         return y;
     }
 
+    public static void main(String[] args) {
+        Q15Diem p1 = new Q15Diem();
+    }
 
 }
