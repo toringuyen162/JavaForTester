@@ -1,5 +1,6 @@
 package Solution;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -58,6 +59,19 @@ public class Q14SinhVien {
             System.out.printf("Nhập điểm Hoá từ 0-10");
             setChemistry(sc.nextFloat(), sc);
         } else this.chemistry = chemistry;
+
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public boolean isSex() {
+        return sex;
     }
 
     public float getMath() {
@@ -72,8 +86,8 @@ public class Q14SinhVien {
         return chemistry;
     }
 
-    public void avgScore(float math, float physics, float chemistry) {
-        float avg = (math * 3 + physics * 2 + chemistry) / 6;
+    public float avgScore(float math, float physics, float chemistry) {
+        return (math * 3 + physics * 2 + chemistry) / 6;
     }
 
 
@@ -99,15 +113,24 @@ public class Q14SinhVien {
 //            System.out.printf("Nhap diem Hoa: ");
 //            object.setChemistry(sc.nextFloat(), sc);
 //        }
-
-        Q14SinhVien sv1 = new Q14SinhVien("Thuỳ",true,8,9,7);
-        Q14SinhVien sv2 = new Q14SinhVien("Long",false,2,4,10);
-        Q14SinhVien sv3 = new Q14SinhVien("Nga",true,3,5,7);
-        sv1.avgScore(sv1.getMath(),sv1.getPhysics(),sv1.getChemistry());
-        sv2.avgScore(sv2.getMath(),sv2.getPhysics(),sv2.getChemistry());
-        sv3.avgScore(sv3.getMath(),sv3.getPhysics(),sv3.getChemistry());
-
+        List<Q14SinhVien> list = new ArrayList<Q14SinhVien>();
+        list.add(new Q14SinhVien("Thuỳ", true, 2, 9, 7));
+        list.add(new Q14SinhVien("Long", false, 2, 4, 10));
+        list.add(new Q14SinhVien("Nga", true, 3, 5, 7));
+        list.add(new Q14SinhVien("Hương", false, 10, 4, 9));
+        var svMax = list.get(0);
+        var avgMax = svMax.avgScore(svMax.getMath(),svMax.getPhysics(), svMax.getChemistry());
+        for (Q14SinhVien i : list) {
+            var avgScore = i.avgScore(i.getMath(), i.getPhysics(), i.getChemistry());
+            if (avgScore > avgMax) {
+                avgMax = avgScore;
+                svMax = i;
+            }
         }
+        System.out.println("Diem trung binh toi da la: " + avgMax);
+        System.out.println("Sinh vien co diem trung binh toi da la: " + svMax.getName());
+
+    }
 
 }
 
