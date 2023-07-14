@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q14SinhVien.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q14SinhVien.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q15Diem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q15Diem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q16Phanso.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q16Phanso.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
       <recent name="Q4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q16Phanso">
+  <component name="RunManager" selected="Application.Q15Diem">
     <configuration name="Q10Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution.Q10Solution" />
       <module name="untitled" />
@@ -118,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q16Phanso" />
         <item itemvalue="Application.Q15Diem" />
+        <item itemvalue="Application.Q16Phanso" />
         <item itemvalue="Application.Q14SinhVien" />
         <item itemvalue="Application.Q12SolutionPalindrome" />
         <item itemvalue="Application.Q10Solution" />
