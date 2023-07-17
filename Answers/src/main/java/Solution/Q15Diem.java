@@ -51,6 +51,60 @@ public class Q15Diem {
             return a;
         } else return b;
     }
+public static class triangle{
+        private Q15Diem a;
+        private Q15Diem b;
+        private Q15Diem c;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+}
 
     public static void main(String[] args) {
         Q15Diem a = new Q15Diem(0, 1);

@@ -3,25 +3,25 @@ package Solution;
 public class Q1Solution {
     //Đề bài: tìm số nguyên tố
     public static void main(String[] args) {
-    isPrimeNumber(11);
+        isPrimeNumber(11.5);
     }
-    public static void isPrimeNumber (int i){
 
-          if (i<=1) {
-              throw new IllegalArgumentException("So nguyen to la so nguyen > 1");
-          } else {
-              int count = 1;
-              for (int j=2;j<i;j++) {
-                  if (i % j == 0) {
-                      count++;
-                  }
-              }
-              if (count == 1){
-                  System.out.println(i+" la so nguyen to");
-              } else {
-                  System.out.println(i+" khong phai la so nguyen to");
-              }
+    public static void isPrimeNumber(int n) throws (Exception e) {
+        try {
+            int count = 1;
+            for (int i = 2; i < n; i++) {
+                if (n % i == 0) {
+                    count++;
+                }
+            }
+            if (count == 1) {
+                System.out.println(n + " la so nguyen to");
+            } else {
+                System.out.println(n + " khong phai la so nguyen to");
+            }
 
-      }
+        } catch (Exception e) {
+            System.out.println("So nguyen to la so nguyen > 1");
+        }
     }
 }
