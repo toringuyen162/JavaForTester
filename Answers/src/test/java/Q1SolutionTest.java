@@ -1,5 +1,9 @@
+import Solution.Q1Solution;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 public class Q1SolutionTest {
-    void tc1 {
-        assert.
+    @Test(expectedExceptions = NumberFormatException.class)
+    void tc1() {
+        Q1Solution.isPrimeNumber("11.5");
     }
 }
