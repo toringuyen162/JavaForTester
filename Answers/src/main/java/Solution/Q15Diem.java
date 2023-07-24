@@ -56,54 +56,6 @@ public static class triangle{
         private Q15Diem b;
         private Q15Diem c;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
 }
 
     public static void main(String[] args) {
