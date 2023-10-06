@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q15Diem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/main/java/Solution/Q15Diem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Answers/src/test/java/Q1SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Answers/src/test/java/Q1SolutionTest.java" afterDir="false" />
-    </list>
-=======
     <list default="true" id="559802d9-0557-4d27-a8d5-e6d19ccaae27" name="Changes" comment="1" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
